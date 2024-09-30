@@ -11,7 +11,7 @@ package com.mycompany.registration;
 import javax.swing.JOptionPane;
 
 
-public class Login {
+public class Login{
     String enteredUserName; 
     String enteredPassword; 
       

@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
  */
 
-
+import com.mycompany.registration.Registration;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -15,13 +15,79 @@ public class RegistrationTest {
     
     public RegistrationTest() {
     }
+    
+   
 
    
+    
+    
+
+    /**
+     * Test of getUserName method, of class Registration.
+     */
+    @Test
+    public void testGetUserName() {
+        System.out.println("getUserName");
+        String expResult = "kyl_l";
+        String result = Registration.getUserName();
+        assertEquals(expResult, result);
+      
+        
+    }
+
    
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
+    /**
+     * Test of getPassword method, of class Registration.
+     */
+    @Test
+    public void testGetPassword() {
+        System.out.println("getPassword");
+        String expResult = "Ch&&sec@ke99!";
+        String result = Registration.getPassword();
+        assertEquals(expResult, result);
+        
+    }
+
+   
+
+    /**
+     * Test of getFirstName method, of class Registration.
+     */
+    @Test
+    public void testGetFirstName() {
+        System.out.println("getFirstName");
+        String expResult = "Kyle";
+        String result = Registration.getFirstName();
+        assertEquals(expResult, result);
+        
+   
+    }
+
+  
+
+    /**
+     * Test of getSurname method, of class Registration.
+     */
+    @Test
+    public void testGetSurname() {
+        System.out.println("getSurname");
+        String expResult = "";
+        String result = Registration.getSurname();
+        assertEquals(expResult, result);
+        
+        
+    }
+
+    /**
+     * Test of main method, of class Registration.
+     */
+    @Test
+    public void testMain() {
+        System.out.println("main");
+        String[] args = null;
+        Registration.main(args);
+        
+    }
+    
 }
