@@ -67,11 +67,11 @@ public class Registration {
     /*main method and declarations*/
     }
     public static void main(String[] args) {
-        setFirstName();
+       setFirstName();
        setSurname();
        setUserName();
        setPassword();
-       
+      
          
        
          loginObject.registerUser();
