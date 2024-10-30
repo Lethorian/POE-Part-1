@@ -1,3 +1,4 @@
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -55,6 +56,8 @@ public class Task {
     }
 
     // Static method to return total combined hours of all tasks
+
+    
     public static int returnTotalHours() {
         return totalHours;
     }

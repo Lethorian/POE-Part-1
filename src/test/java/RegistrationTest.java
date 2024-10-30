@@ -72,7 +72,7 @@ public class RegistrationTest {
     @Test
     public void testGetSurname() {
         System.out.println("getSurname");
-        String expResult = "";
+        String expResult = "Smith";
         String result = Registration.getSurname();
         assertEquals(expResult, result);
         
