@@ -1,3 +1,5 @@
+package com.mycompany.registration;
+
 
 import java.util.ArrayList;
 
@@ -16,6 +18,7 @@ private final ArrayList<String> taskNamesArray = new ArrayList<>();
 private final ArrayList<String> taskIDsArray = new ArrayList<>();
 private final ArrayList<Integer> taskDurationsArray = new ArrayList<>();
 private final ArrayList<String> taskStatusesArray = new ArrayList<>();
+
 
  public void addTask(String developer, String taskName, String taskID, int duration, String status) {
     developerArray.add(developer);
@@ -91,6 +94,6 @@ public void displayReport() {
                            ", Status: " + taskStatusesArray.get(i));
     }
 }
-   
-    
+
+
 }
